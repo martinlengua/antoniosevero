@@ -9,7 +9,7 @@ import assist
 import os
 import re
 
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+os.environ["KMP_DUPLICATE_LIB_OK"] = "FALSE"
 os.environ["OMP_NUM_THREADS"] = "1"
 
 # Inicializa el cliente de OpenAI (asegúrate de tener tus credenciales configuradas correctamente)
